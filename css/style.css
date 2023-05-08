@@ -372,6 +372,7 @@ body {
 .customers-link:focus,
 .customers-link:hover {
   border: 1px solid var(--btn-color);
+  color: var(--btn-color);
 }
 
 .customers-link:focus .customers-icon,
@@ -380,9 +381,7 @@ body {
 }
 
 .customers-icon {
-  width: 104px;
-  height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /* footer  */
